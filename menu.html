@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Shop</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    header {
+      background: #ffb347;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    nav {
+      background: #f8f8f8;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Ice Cream Shop</h1>
+    <p>Indulge in the Sweetest Treats</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+    <a href="thankyou.html">Thank You</a>
+  </nav>
+
+  <section>
+    <h2>Front Page</h2>
+    <p>Welcome to our ice cream shop! Explore our delightful menu and treat yourself to the perfect scoop.</p>
+  </section>
+
+  <section>
+    <h2>Menu</h2>
+    <p>Check out our delicious ice cream flavors and toppings.</p>
+    <!-- Include your menu items and descriptions here -->
+  </section>
+
+  <section>
+    <h2>Order Details</h2>
+    <form action="thankyou.html" method="post">
+      <label for="flavor">Select Ice Cream Flavor:</label>
+      <select id="flavor" name="flavor">
+        <!-- Include your flavor options here -->
+        <option value="vanilla">Vanilla</option>
+        <option value="chocolate">Chocolate</option>
+        <!-- Add more flavors as needed -->
+      </select><br>
+
+      <label for="topping">Select Topping:</label>
+      <select id="topping" name="topping">
+        <!-- Include your topping options here -->
+        <option value="sprinkles">Sprinkles</option>
+        <option value="chocolate-sauce">Chocolate Sauce</option>
+        <!-- Add more toppings as needed -->
+      </select><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+      <input type="submit" value="Place Order">
+    </form>
+  </section>
+
+  <section>
+    <h2>Thank You</h2>
+    <p>Thank you for placing your order! Your delicious ice cream will be ready shortly.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Our Ice Cream Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

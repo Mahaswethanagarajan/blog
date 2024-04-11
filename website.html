@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Delights</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: #ffb347;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    nav {
+      background: #f8f8f8;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Ice Cream Delights</h1>
+    <p>Indulge in the Sweetest Treats</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Discover Our Ice Cream Delights</h2>
+    <img src="home-image.jpg" alt="Ice Cream Shop Interior">
+    <p>Welcome to our ice cream shop, where every scoop is a delight!</p>
+  </section>
+
+  <section>
+    <h2>Explore Our Delicious Menu</h2>
+    <img src="menu-image.jpg" alt="Ice Cream Menu">
+    <p>Indulge in a variety of flavors and toppings. From classic favorites to unique creations, we have something for everyone.</p>
+    <!-- Include your menu items and descriptions here -->
+  </section>
+
+  <section>
+    <h2>Place Your Order</h2>
+    <form action="thankyou.html" method="post">
+      <label for="flavor">Select Ice Cream Flavor:</label>
+      <select id="flavor" name="flavor">
+        <!-- Include your flavor options here -->
+        <option value="vanilla">Vanilla</option>
+        <option value="chocolate">Chocolate</option>
+        <!-- Add more flavors as needed -->
+      </select><br>
+
+      <label for="topping">Select Topping:</label>
+      <select id="topping" name="topping">
+        <!-- Include your topping options here -->
+        <option value="sprinkles">Sprinkles</option>
+        <option value="chocolate-sauce">Chocolate Sauce</option>
+        <!-- Add more toppings as needed -->
+      </select><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+      <input type="submit" value="Place Order">
+    </form>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <img src="about-image.jpg" alt="Ice Cream Shop Owners">
+    <p>Get to know the passionate team behind Ice Cream Delights. We are dedicated to bringing joy to your taste buds!</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <img src="contact-image.jpg" alt="Ice Cream Shop Exterior">
+    <p>Have a question or just want to say hello? Reach out to us, and we'll be happy to assist you!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Ice Cream Delights. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
